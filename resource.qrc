@@ -8,9 +8,16 @@
         <file>Music/fly.mp3</file>
         <file>Music/hit.mp3</file>
         <file>Music/past.mp3</file>
-        <file>Resource/bird.png</file>
         <file>Resource/replay.png</file>
         <file>Resource/quit.png</file>
+        <file>Resource/bird1.png</file>
+        <file>Resource/medal0.png</file>
+        <file>Resource/medal1.png</file>
+        <file>Resource/medal2.png</file>
+        <file>Resource/rank.png</file>
+        <file>Resource/scoreboard.png</file>
         <file>Resource/gameover.png</file>
+        <file>Resource/flappybird.png</file>
+        <file>Resource/guide.png</file>
     </qresource>
 </RCC>

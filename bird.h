@@ -11,20 +11,22 @@ class bird : public QGraphicsObject
 public:
     bird(QGraphicsObject *parent = 0);
     void keyPressEvent(QKeyEvent *event);
+	//void mousePressEvent(QMouseEvent *event);
     void riseAndfall();
     void birdUp();
     bool checkCollide();
-
+	void stopMove();
+	void reset();
 protected:
     QRectF boundingRect() const;
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
-
+	
 signals:
     void adjustTimer();
 
 protected slots:
     void setChangeAnimation();
-    void reset();
+    
 
 private:
     int status;

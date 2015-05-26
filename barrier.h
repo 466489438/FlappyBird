@@ -13,7 +13,7 @@ public:
     ~barrier();
     QPainterPath shape() const;
     void beginMove();
-
+	void stopMove();
 signals:
     void add_Score();
 

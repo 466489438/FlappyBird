@@ -20,7 +20,6 @@ signals:
     void close();
 
 public slots:
-    void readyWidgetMove();
     void startGame();
     void gameLoop();
     void gameOver();
@@ -32,10 +31,15 @@ protected:
 private:
     bool isBegin;
     int current_Score;
+	int high_Score;
     int distance;
     QWidget *readyWidget;
     QWidget *scoreWidget;
-    QLabel *score;
+    QLabel *scoreBoard;
+	QLabel *medal;
+	QLabel *gameOverLabel;
+	QLabel *flappyBird;
+	QLabel *guide;
 	QMediaPlayer *media;
     QGraphicsScene *scene;
     QPropertyAnimation *readyAnimation;
@@ -48,6 +52,8 @@ private:
 	QLCDNumber *lcdScore;//显示分数
     QTimer *gameLoopTimer;
 	QPixmap pixmapBkgnd;//游戏背景
+	QPixmap pixmap;//成绩面板
+	
 };
 
 #endif // GAMECONTORLLER_H

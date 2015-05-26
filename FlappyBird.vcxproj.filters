@@ -120,40 +120,8 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resource\background.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Music\fly.mp3">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Music\hit.mp3">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Music\past.mp3">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Resource\pipe1.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Resource\pipe2.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="Resource\ready.png">
-      <Filter>Resource Files</Filter>
-    </None>
     <CustomBuild Include="resource.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
-    <None Include="Resource\roadMove.png">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Resource\bird.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="Resource\gameover.png">
-      <Filter>Resource Files</Filter>
-    </Image>
   </ItemGroup>
 </Project>
